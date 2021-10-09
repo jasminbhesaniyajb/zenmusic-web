@@ -1,0 +1,130 @@
+/* table screen */
+
+@media (max-width: 992px) {
+	.eb-sm-block {
+		display: block;
+	}
+	.eb-md-block {
+		display: none;
+	}
+	/* header section */
+	.header-wraper {
+		padding: 10px 0px 1px 0px;
+	}
+	.header-wraper h1 {
+		font-size: 27px;
+		text-align: center;
+	}
+	.header-wraper p {
+		font-size: 11px;
+		text-align: justify;
+	}
+	.zh-btn-primary {
+		font-size: 8px;
+	}
+	.action-part a {
+		font-size: 8px;
+	}
+	.header-wraper .action-part {
+		margin: 14px 0px;
+	}
+	.yoga-lady {
+		display: none;
+	}
+	.header-wraper::after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background-image: url(../images/tree.svg);
+		width: 91px;
+		height: 70px;
+		background-repeat: no-repeat;
+	}
+	/* how-works */
+	.main-wraper h2 {
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.main-wraper .how-work-wraper {
+		padding: 30px;
+	}
+	/* zen sec */
+	.zen-wrapper {
+		text-align: center;
+	}
+	.zen-section .col-12:nth-of-type(1) {
+		order: 2;
+	}
+	.zen-section::after {
+		display: none;
+	}
+	/* categories sec */
+	.main-wraper .categories-wraper .containt .zh-card-1 {
+		position: initial;
+		bottom: initial;
+		left: initial;
+		width: initial;
+		padding: 30px 10px;
+	}
+	.main-wraper .categories-wraper .containt .zh-card-2 {
+		position: initial;
+		top: initial;
+		left: initial;
+		width: initial;
+		padding: 30px 10px;
+	}
+	.main-wraper .categories-wraper .containt .zh-card-3 {
+		position: initial;
+		top: initial;
+		left: initial;
+		width: initial;
+		padding: 30px 10px;
+	}
+	.main-wraper .categories-wraper .containt .zh-card-4 {
+		position: initial;
+		top: initial;
+		right: initial;
+		width: initial;
+		padding: 30px 10px;
+	}
+	.main-wraper .categories-wraper .containt .zh-card-5 {
+		position: initial;
+		bottom: initial;
+		right: initial;
+		width: initial;
+		padding: 30px 10px;
+	}
+	.main-wraper .categories-wraper .containt .zh-card-6 {
+		position: initial;
+		top: initial;
+		right: initial;
+		width: initial;
+		padding: 30px 10px;
+	}
+	.main-wraper .categories-wraper .containt .card h3 {
+		font-size: 9px;
+	}
+	.wave::after {
+		display: none;
+	}
+	/* message-sec */
+	.message-sec {
+		text-align: center;
+	}
+	.message-sec::after {
+		display: none;
+	}
+	/* faq  */
+	.faq-title {
+		font-size: 12px;
+	}
+	.faq-text {
+		font-size: 10px;
+	}
+	/* testimonials */
+	.gtco-testimonials {
+		margin-top: 20px;
+	}
+}
